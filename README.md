@@ -7,12 +7,15 @@ The repository includes:
 
         inference_images folder contains images for making inferences once the classification models were trained.
         
-        integration_codes folder includes four Python scripts where the detection and classification models get in merged to make the recognition of the vowels of the LSE:
+        integration_codes folder includes six Python scripts where the detection and classification models get in merged to make the recognition of the vowels of the LSE:
         
           - DataCollection.py to collect and create the vowelsLSE dataset.          
-          - HandTrackingModule_noSkeleton.py is the hand detection module.          
-          - classificationModule_init.py is the classification module for the vowels of LSE.          
-          - signRecognition_init.py is a recognition module for the vowels of LSE in real-time using the hand detection and image classification modules.  
+          - HandTrackingModule_noSkeleton.py is the hand detection module and works for Keras and FastAI library.          
+          - classificationModule_init.py is the classification module for the vowels of LSE works for Keras model.      
+          - classificationModule_init_fastai.py is the classification module for the vowels of LSE works for FastAI model.      
+          - signRecognition_init.py is a recognition module for the vowels of LSE in real-time using the hand detection and image classification modules works for Keras model. 
+          - signRecognition_init_fastai.py is a recognition module for the vowels of LSE in real-time using the hand detection and image classification modules works for FastAI model.
+          
           
         models folder has two image classification models:    
         
