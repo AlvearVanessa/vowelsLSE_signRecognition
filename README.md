@@ -3,6 +3,7 @@
 In this work, we presented a sign recognition system based on hand detection and image classification of the vowels of the Spanish Sign language (Lengua de Signos Española - LSE), to make the recognition of the vowels of the LSE in real-time. The vowelsLSE dataset consists of 5 gestures of one person signing each vowel according to LSE - Lengua de Signos Española (Spanish Sign Language) and contains 3461 images. It consists of RGB images in JPG format with a size of 400 x 400 and has a white background to make them the same size. This dataset has been created as a proof of concept and is being worked on for improvement in future updates. 
 
 The repository includes:
+
         inference_images folder contains images for making inferences once the classification models were trained.
         
         integration_codes folder includes four Python scripts where the detection and classification models get in merged to make the recognition of the vowels of the LSE:
