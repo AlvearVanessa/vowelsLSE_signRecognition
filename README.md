@@ -17,7 +17,7 @@ The repository includes:
           - signRecognition_init_fastai.py is a recognition module for the vowels of LSE in real-time using the hand detection and image classification modules that work for the FastAI model.
           
           
-        The `models` folder has two image classification models:    
+        The models folder has two image classification models:    
         
           - NN2_keras.ipynb. It is a complex neural network created with Keras and Tensorflow libraries using Keras Tuner for hyperparameter search.          
           - ResNet50_fastai.ipynb. It is a model that applies ResNet50 architecture and uses the FastAI library. 
