@@ -24,4 +24,4 @@ The repository includes:
           
         notebook_images folder contains two images, one indicates the transformations applied for data, and the other is the signs of the vowels of the LSE.
 
-The corresponding datasets for Keras and FastAI models are in the following link: https://unirioja-my.sharepoint.com/:f:/g/personal/maalvear_unirioja_es/EvNHeOc-orlLtrT67Y4-w-EBT8JWvD5aTwVImW6PmP4i5A?e=9SDtfF
+The corresponding datasets for Keras and FastAI models are in the following link: 
